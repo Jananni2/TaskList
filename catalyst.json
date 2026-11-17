@@ -1,0 +1,15 @@
+{
+  "functions": {
+    "targets": [
+      "sample",
+      "TaskCreated"
+    ],
+    "ignore": [
+      ".output"
+    ],
+    "source": "functions"
+  },
+  "client": {
+    "source": "client"
+  }
+}

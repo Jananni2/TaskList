@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build files
+build/
+dist/
+.output/
+.build/
+bin/
+TaskList.jar
+
+# Secrets and local configuration
+.env
+.env.*
+.catalystrc
+
+# IDE files
+.vscode/
+.idea/
+.classpath
+.project
+.settings/
+
+# Backups
+functions_backup/
+
+# Logs
+*.log
+
+functions/sample_old/

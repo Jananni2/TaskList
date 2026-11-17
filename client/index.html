@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskList</title>
+
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>TaskList</h1>
+        <p>Manage your tasks easily.</p>
+
+        <!-- Add Task -->
+        <form id="taskForm">
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a task"
+                required
+            >
+
+            <button type="submit">Add Task</button>
+        </form>
+
+        <!-- Display Tasks -->
+        <h2>My Tasks</h2>
+        <ul id="taskList"></ul>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+/* LET THE STYLING BEGIN */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #73686c;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background: rgb(213, 208, 208);
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    color: #1e293b;
+    margin-bottom: 8px;
+}
+
+p {
+    color: #64748b;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin: 25px 0;
+}
+
+input {
+    flex: 1;
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background: #65c361;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+li span {
+    flex: 1;
+    overflow-wrap: anywhere;
+}
+
+li button:last-child {
+    background: #e0ab5b;
+}
+
+li button:last-child:hover {
+    background: #b91c1c;
+}
+
+@media (max-width: 480px) {
+    form {
+        flex-direction: column;
+    }
+
+    li {
+        flex-wrap: wrap;
+    }
+}

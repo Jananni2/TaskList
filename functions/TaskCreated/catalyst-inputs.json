@@ -1,0 +1,43 @@
+{
+  "test_event_cache_put": {
+    "rule_id": "494600955697853566",
+    "target_id": "96892598",
+    "version": 1,
+    "attempt": 1,
+    "account": {
+      "org_id": "60095496129",
+      "project": {
+        "environment": "Development",
+        "name": "TaskList",
+        "id": "103948000000013050"
+      }
+    },
+    "events": [
+      {
+        "data": {
+          "cache_name": "60cb7297e7",
+          "cache_value": "4cee5b6f44",
+          "project_details": {
+            "project_name": "TaskList",
+            "id": "103948000000013050",
+            "project_type": "Live"
+          },
+          "segment_details": {
+            "segment_name": "Default",
+            "id": "103948000000013068"
+          },
+          "expiry_in_hours": 16,
+          "expires_in": "Nov 13, 2026 08:05 AM",
+          "ttl_in_milliseconds": "57600000"
+        },
+        "id": "9b86fe73-d05a-76f7-5524-f671740f426",
+        "time_in_ms": "1794479738297",
+        "source": "publisher_id:36616435640139607/service:cloudscalecache/account:38191404",
+        "event_config": {
+          "api_name": "cache_item_created",
+          "id": "89974586205395152"
+        }
+      }
+    ]
+  }
+}
